@@ -1,0 +1,24 @@
+@import "~react-toolbox/lib/colors";
+
+$color-primary: $palette-blue-500;
+// $color-primary: #04c134;
+$color-primary: #fe3737;
+$color-primary-dark: $palette-blue-700;
+
+body{
+	background: #fe3737;
+}
+
+header {
+	text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  // background-image: url('https://s24.postimg.org/dohowmhp1/header_bg.jpg');
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	padding: 20px;
+}

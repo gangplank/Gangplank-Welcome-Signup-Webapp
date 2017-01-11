@@ -1,0 +1,22 @@
+.layout{
+  .navDrawer{
+    .drawerContent{
+      color: #fff;
+      background: #fe3737;
+      border-right: #2b0a0d!important;
+
+      a, a:visited{
+        color: #fff;
+      }
+    }
+  }
+
+	.panel{
+		background: #fe3737;
+    clear: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+		height: 100%;
+	}
+
+}
