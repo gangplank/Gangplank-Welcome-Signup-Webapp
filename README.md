@@ -23,3 +23,36 @@ These are the technologies/tools being used
 ### Screenshots
 
 ![Screenshot](https://s28.postimg.org/4iurtrvvx/Gangplank_Welcome_Signup_Webapp.png)
+
+
+### Development
+
+To run this locally you need to have:
+
+- Node.js / NPM
+- Git
+
+```
+git clone https://github.com/gangplank/Gangplank-Welcome-Signup-Webapp.git
+```
+
+```
+cd Gangplank-Welcome-Signup-Webapp
+```
+
+```
+npm install
+```
+
+```
+npm start
+```
+
+Then you should have the server running:
+```
+> node server.js
+
+==> Listening on port 3000. Open up http://localhost:3000/ in your browser.
+webpack built c3c7a83174c71fab3466 in 13057ms
+
+```
