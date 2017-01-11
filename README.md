@@ -19,3 +19,7 @@ These are the technologies/tools being used
 - The code from this project (Node.js web app, React.js)
 - Sendgrid
 - Database to store data? Maybe? Or just CC a group of people with new sign up data?
+
+### Screenshots
+
+![Screenshot](https://s28.postimg.org/4iurtrvvx/Gangplank_Welcome_Signup_Webapp.png)
