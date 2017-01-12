@@ -2,13 +2,25 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import {
-	Button
+	Button,
+	Input, RadioGroup,
+	RadioButton
 } from 'react-toolbox';
 
 const style = {
 	button: {
 		width: '100%',
-		margin: '10px auto'
+		margin: '10px auto',
+		fontSize: '1.3em'
+	},
+	form: {
+
+	},
+	page: {
+		width: '700px',
+		margin: '0px auto',
+		background: 'rgba(250,250,250,0.8)',
+		padding: '40px'
 	}
 };
 
@@ -17,16 +29,27 @@ class Home extends Component {
 
 	}
 
+	handleChange(name, value) {
+
+	}
+
 	render() {
 
 
 		return (
-      <div>
+      <div style={style.page}>
       	<h1>What Brings You Here?</h1>
-				<Button icon='add' label='Meeting/Event' style={style.button} raised primary />
-				<Button icon='add' label='Coworking' style={style.button} raised primary />
-				<Button icon='add' label='Do Not Know... yet' style={style.button} raised primary />
+				<form style={style.form}>
+					<RadioGroup name='reason' value='2' onChange={this.handleChange}>
+		        <RadioButton label='Meeting/Event' value='thewalkingdead'/>
+		        <RadioButton label='Coworking' value='fromhell' />
+		        <RadioButton label='Do Not Know...yet' value='vvendetta'/>
+		      </RadioGroup>
 
+					<Input type='email' label='Email address' icon='email' value='' onChange={this.handleChange.bind(this, 'email')} />
+
+					<Button icon='add' label='Submit' style={style.button} raised primary />
+				</form>
 
       </div>
 		);

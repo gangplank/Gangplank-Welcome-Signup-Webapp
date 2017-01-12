@@ -22,7 +22,7 @@ These are the technologies/tools being used
 
 ### Screenshots
 
-![Screenshot](https://s28.postimg.org/4iurtrvvx/Gangplank_Welcome_Signup_Webapp.png)
+![Screenshot](https://s29.postimg.org/h7pat8hfr/Gangplank_Welcome_Signup_Webapp.png)
 
 
 ### Development
